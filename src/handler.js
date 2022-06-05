@@ -80,7 +80,6 @@ const editNoteByIdHandler = (request, h) => {
       body,
       updatedAt,
     };
-    console.log(notes[index]);
 
     const response = h.response({
       status: 'success',
