@@ -61,7 +61,7 @@ const getNoteByIdHandler = (request, h) => {
     status: 'fail',
     message: 'Catatan tidak ditemukan',
   });
-  response.code = 404;
+  response.code(404);
   return response;
 };
 
